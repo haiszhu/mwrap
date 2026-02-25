@@ -1,16 +1,18 @@
 .o
 .a
 
+/build*/
+
 mwrap
 src/lex.yy.c
 src/lex.yy.o
 src/mwrap-ast.o
 src/mwrap-cgen.o
 src/mwrap-mgen.o
-src/mwrap-support.h
-src/mwrap-typecheck.o
 src/mwrap.cc
 src/mwrap.hh
+src/mwrap-support.h
+src/mwrap-typecheck.o
 src/mwrap.o
 src/mwrap.output
 src/stringify
@@ -21,3 +23,4 @@ testing/test_include.m
 testing/test_includemex.cc
 testing/test_syntax.log
 
+__pycache__/
